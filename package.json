@@ -4,6 +4,7 @@
   "description": "This node js app is used for redirection url",
   "main": "app.js",
   "scripts": {
+    "start": "app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
