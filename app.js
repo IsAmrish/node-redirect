@@ -8,5 +8,7 @@ function handleRedirect(req, res) {
 
 app.get("/", handleRedirect);
 
-const port = process.env.port || 3000;
-app.listen(port);
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(` Server is running on port ${PORT}`);
+});
