@@ -1,0 +1,23 @@
+{
+  "name": "redirect",
+  "version": "1.0.0",
+  "description": "This node js app is used for redirection url",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsAmrish/node-redirect.git"
+  },
+  "author": "Amrish Kushwaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsAmrish/node-redirect/issues"
+  },
+  "homepage": "https://github.com/IsAmrish/node-redirect#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  }
+}
